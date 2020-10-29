@@ -1,4 +1,5 @@
 /*File: multitable.js
+https://github.com/CGonthier424/MultiplicationTable-JS/blob/main/multitable.js
 Connor Gonthier
 connor_gonthier@student.uml.edu
 UMass Lowell student taking course 91.61 GUI Programming I
