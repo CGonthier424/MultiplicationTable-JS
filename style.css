@@ -1,0 +1,52 @@
+/*File: style.css
+Connor Gonthier
+connor_gonthier@student.uml.edu
+UMass Lowell student taking course 91.61 GUI Programming I
+This was created on 10/27/2020
+*/
+
+body{
+  text-align: center;
+  background-color: CornflowerBlue;
+}
+
+#forumButton{
+  background-color:BurlyWood ;
+  width: 80%;
+  margin: auto;
+
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+/* styling table to be readable and scrollable with large tables */
+#multiTable{
+  display: block;
+  max-height: 600px;
+  max-width:  80%;
+  overflow: auto;
+
+  background-color: Azure;
+  text-align: center;
+  margin: auto;
+}
+/*Making first row black which is the guide values*/
+#mtRow:first-child{
+  background-color: black;
+  color: white;
+}
+/* making first cell white*/
+#mtCell:first-child{
+  background-color: white;
+}
+/*Making first column black which is the guide values*/
+#mtCellC{
+  background-color: black;
+  color: white;
+}
+/* All evens to be lightgrey for readablility
+which ends up as every other column*/
+#mtCellG:nth-child(odd){
+  background-color: lightgrey;
+}

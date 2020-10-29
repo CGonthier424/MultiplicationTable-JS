@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <!-- File: index.html
+Connor Gonthier
+connor_gonthier@student.uml.edu
+UMass Lowell student taking course 91.61 GUI Programming I
+This was created on 10/27/2020
+-->
+
+
+ <html lang="en-us">
+  <head>
+  <!-- MetaTags -->
+    <meta charset= "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Connor Gonthier">
+    <link rel="stylesheet" href="style.css">
+     <title>Multiplcation Table</title>
+  </head>
+
+<body>
+
+  <!-- Div to hold my Forum and buttom to submit -->
+  <div id= forumButton>
+    <h2>Multiplcation Table</h2>
+    <form>
+      <!-- For Row --> <!-- Min Row -->
+      <label for="Enter Minumum Row Value"> Minimum-Row Value: </label><br>
+      <input type="text" id="minRow" name="minRow"><br>
+      <!-- MAX Row -->
+      <label for="Enter Maximum Row Value"> Maximum-Row Value: </label><br>
+      <input type="text" id="maxRow" name="minRow"><br>
+      <!-- For Column --> <!-- Min Column -->
+      <label for="Enter Minumum Column Value"> Minimum-Column Value: </label><br>
+      <input type="text" id="minColumn" name="minColumn"><br>
+      <!-- Max Column -->
+      <label for="Enter Maximum Column Value"> Maximum-Column Value: </label><br>
+      <input type="text" id="maxColumn" name="minColumn"><br><br>
+
+    </form>
+    <p id =ErrorOutput></p>
+    <input type="button" value="Submit" onclick="generate_multitable()">
+  </div>
+
+  <div id= mTable>
+    <script src="multitable.js"></script>
+  </div>
+
+</body>
